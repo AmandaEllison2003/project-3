@@ -1,0 +1,292 @@
+body {
+  background-color: #f0baba;
+}
+.navbar {
+  position: relative !important;
+}
+.navbar-brand .logo-home {
+  position: absolute !important;
+  min-width: 350px;
+  min-height: 225px;
+  top: 0;
+}
+.logo-other-pages {
+  min-width: 100px;
+  min-height: 50px;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+/* .column {
+  padding-left: 3%;
+  margin-top: 3%;
+}
+#sa2 {
+  width: 110%;
+}
+#sa1 {
+  width: 110%;
+}
+.title {
+  font-family: zapfino;
+  margin-top: 14%;
+}
+.subtitle {
+  margin-top: 4%;
+}
+#flex-container {
+  width: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#homesabrina {
+  width: 47%;
+  padding-left: 52%;
+  margin-top: -15%;
+}
+#signature {
+  width: 50%;
+  padding-right: 9%;
+  margin-top: -15%;
+  padding-top: 3%;
+}
+#quote {
+  font-size: 55px;
+  font-family: Oriya MN;
+  font-weight: bold;
+  margin-top: -9%;
+  text-align: center;
+  padding-right: 50%;
+  color: #707070;
+  margin-top: -25%;
+}
+#v {
+  width: 10%;
+  margin-top: 12%;
+  padding-left: 3%;
+}
+#b {
+  width: 12%;
+  margin-top: 7%;
+  padding-left: 1%;
+}
+#rs {
+  width: 13%;
+  margin-top: 14%;
+  padding-left: 1%;
+}
+#stream {
+  font-size: 170%;
+  font-family: Oriya MN;
+  color: #707070;
+  padding-left: 72%;
+}
+#spot {
+  width: 10%;
+  padding-left: 76%;
+  margin-top: -9%;
+}
+#apple {
+  width: 10%;
+  padding-left: 76%;
+  margin-top: 1%;
+}
+#sc {
+  width: 10%;
+  padding-left: 76%;
+  margin-top: 1%;
+}
+#iheart {
+  width: 15%;
+  padding-left: 73%;
+  margin-top: 1%;
+}
+#pandora {
+  width: 8%;
+  padding-left: 77%;
+  margin-top: 1%;
+}
+#ytm {
+  width: 15%;
+  padding-left: 73%;
+  margin-top: 1%;
+}
+#d {
+  width: 15%;
+  padding-left: 73%;
+  margin-top: 1%;
+}
+#insta {
+  width: 7%;
+  padding-left: 5%;
+  margin-top: 1%;
+}
+#tiktok {
+  width: 7%;
+  padding-left: 1%;
+  margin-top: 1%;
+}
+#twitter {
+  width: 7%;
+  padding-left: 1%;
+  margin-top: 2%;
+}
+#fb {
+  width: 7%;
+  padding-left: 1%;
+  margin-top: 2%;
+}
+#ytlogo {
+  width: 7%;
+  padding-left: 1%;
+  margin-top: 2%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+nav > ul {
+  display: flex;
+  color: #707070;
+}
+
+.video {
+  width: 70%;
+  aspect-ratio: 16/9;
+  align-self: center;
+}
+.homesabrina {
+  justify-content: center;
+} */
+.homesabrina {
+  width: 650px;
+  padding-right: 5%;
+  margin-top: 3%;
+}
+.quote {
+  font-family: Oriya MN;
+  font-size: 50px;
+  margin-top: 30%;
+  padding-left: 8%;
+  text-align: center;
+}
+.spot {
+  width: 10%;
+}
+.yt {
+  width: 10%;
+}
+.sc {
+  width: 13%;
+}
+.heart {
+  width: 15%;
+}
+.pandora {
+  width: 7%;
+}
+.ytm {
+  width: 13%;
+}
+.deezer {
+  width: 13%;
+}
+.albumart {
+  width: 100%;
+}
+.vogue {
+  width: 13%;
+  margin-top: 15%;
+}
+.billboard {
+  width: 13%;
+}
+.insta {
+  width: 6%;
+  padding-top: 7%;
+  padding-left: 1%;
+}
+.twitter {
+  width: 7%;
+  padding-top: 8%;
+}
+.yt {
+  width: 8%;
+  padding-bottom: -1%;
+}
+.fb {
+  width: 6%;
+  padding-top: 7%;
+  padding-left: -1%;
+}
+.tt {
+  width: 6%;
+  padding-top: 7%;
+  padding-left: -1%;
+}
+.title {
+  font-family: Oriya MN;
+  font-size: 150%;
+  margin-top: 9%;
+  padding-left: 8%;
+}
+.goto {
+  font-family: Oriya MN;
+  font-size: 150%;
+  padding-left: 8%;
+  margin-top: 48%;
+}
+.ticket {
+  width: 15%;
+  margin-top: 15%;
+  padding-left: 2%;
+}
+.seatgeek {
+  width: 15%;
+  margin-top: 18%;
+}
+.vs {
+  width: 35%;
+}
+.stub {
+  width: 25%;
+}
+.toursabrina {
+  width: 110%;
+  margin-top: 3%;
+  padding-right: 3%;
+}
+.emailus {
+  font-family: Oriya MN;
+  font-size: 150%;
+  margin-top: 8%;
+  padding-left: 3%;
+}
+.tv1 {
+  width: 100%;
+  aspect-ratio: 16/9;
+  padding-right: 3%;
+}
+.tv2 {
+  width: 100%;
+  aspect-ratio: 16/9;
+  padding-right: 3%;
+}
+.tv3 {
+  width: 100%;
+  aspect-ratio: 16/9;
+  padding-right: 3%;
+}
+.gmail {
+  width: 13%;
+  padding-left: 5%;
+  margin-top: 4%;
+}
+@media screen and (max-width: 600px) {
+  #emails {
+    height: 75px;
+    width: 75px;
+  }
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="has-background-#f0baba">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img class="logo-home" src="./images/sig.jpg" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html"> Home </a>
+          <a class="navbar-item" href="about.html"> About </a>
+          <a class="navbar-item" href="discography.html"> Discogrphy </a>
+          <a class="navbar-item" href="videos.html"> Videos </a>
+          <a class="navbar-item" href="tour.html"> Tours </a>
+        </div>
+      </div>
+    </nav>
+    <div class="columns">
+      <div class="column">
+        <p class="quote">
+          “TRUST ME ALL<br />
+          OF OUR<br />
+          DREAMS ARE<br />
+          BREAKING OUT”
+        </p>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <img
+            class="homesabrina"
+            src="./images/homesabrina.jpg"
+            alt="sabrina carpenter photo"
+          />
+        </div>
+        
+      </div>
+    </div>
+   
+      
+    
+            
+    <a href="https://music.apple.com/us/artist/sabrina-carpenter/390647681" target="_blank"><img
+              class="spot"
+              src="./images/apple.png"
+              alt="apple music logo"
+            />
+            <a href="https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B" target="_blank"> <img
+              class="spot"
+              src="./images/spotify.png"
+              alt="spotify logo"
+            />
+            <a href="https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w" target="_blank"> <img
+              class="yt"
+              src="./images/yt.png"
+              alt="youtube logo"
+            />
+            <a href="https://soundcloud.com/sabrinacarpenter" target="_blank"><img
+              class="sc"
+              src="./images/sc.png"
+              alt="soundcloud logo"
+            /></a>
+            <a href="https://www.iheart.com/artist/sabrina-carpenter-553828/" target="_blank"> <img
+            class="heart"
+            src="./images/iheart.png"
+            alt="iheart logo"
+          />
+          <a href="https://www.pandora.com/artist/sabrina-carpenter/AR9wJmPPbbz52nq" target="_blank"> <img
+              class="pandora"
+              src="./images/pandora.png"
+              alt="pandora logo"
+            />
+            <a href="https://music.youtube.com/channel/UCz51ZodJbYUNfkdPHOjJKKw" target="_blank"><img
+              class="ytm"
+              src="./images/ytm.png"
+              alt="youtube music logo"
+            /></a>
+            <a href="https://www.deezer.com/us/artist/1176900" target="_blank"> <img
+              class="deezer"
+              src="./images/d.png"
+              alt="deezer logo"
+            />
+            
+          </div>
+          <div class="columns">
+            <div class="column">
+              <a href="https://www.vogue.com/article/sabrina-carpenter-emails-i-cant-send-interview" target="_blank"><img
+              class="vogue"
+              src="./images/vogue.png"
+              alt="vogue logo"
+            /></a>
+            <a href="https://www.billboard.com/music/pop/sabrina-carpenter-interview-feature-new-album-island-records-9645263/" target="_blank"><img
+              class="billboard"
+              src="./images/billboard.png"
+              alt="billboard logo"
+            /></a>
+            <a href="https://twitter.com/SabrinaAnnLynn" target="_blank"><img
+            class="billboard"
+            src="./images/rs.png"
+            alt="rolling stone logo"
+          /></a>
+          
+        <div class="columns">
+          <div class="column">
+            <a href="https://www.instagram.com/sabrinacarpenter/" target="_blank"> <img
+              class="insta"
+              src="./images/insta.png"
+              alt="instagram logo"
+            />
+            <a href="https://www.tiktok.com/@sabrinacarpenter?lang=en" target="_blank"> <img
+            class="tt"
+            src="./images/tiktok.png"
+            alt="tiktok logo"
+          />
+          <a href="https://twitter.com/SabrinaAnnLynn" target="_blank"><img
+          class="twitter"
+          src="./images/twitter.png"
+          alt="twitter logo"
+        />
+        <a href="https://www.facebook.com/sabrinacarpenter" target="_blank"> <img
+        class="fb"
+        src="./images/fb.png"
+        alt="facebook logo"
+      />
+      <a href="https://www.rollingstone.com/music/music-news/sabrina-carpenter-emails-i-cant-send-interview-1381304/" target="_blank"> <img
+      class="yt"
+      src="./images/ytlogo.png"
+      alt="youtube logo"
+      />
+            </div>
+          
+   
+          
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener("click", () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle("is-active");
+            $target.classList.toggle("is-active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
